@@ -49,9 +49,9 @@ Now you're ready to rumble!
 
 1.  Open "/app/core/Route.js" and edit "packageName" and "serviceName" variable depends on you ".proto" file.
 
-1.  For every function defined in your proto, you must have a controller and model.
+1.  For every function defined in your proto, you must have a controller.
     - Make a .js in "/app/controllers" folder, with exact name of your proto function. Use "myModel.js" as your template.
-    - Make a .js in "/app/models" folder, with any name you want, and require it in your controller class. Use "myModel.js" as your template.
+    - Models are not required. If you want to use them, Make a .js in "/app/models" folder, with any name you want, and require it in your controller class. Use "myModel.js" as your template.
 
 1.  Time to run your app:
 
