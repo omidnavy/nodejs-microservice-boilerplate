@@ -22,7 +22,7 @@
   <dd><a href="omidnavy/nodejs-microservice-boilerplate">nodejs microservice boilerplate </a> is based on <a href="grpc.io">GRPC</a>, A high performance, open-source universal RPC framework.</dd>
 
   <dt>ES6 Classes</dt>
-  <dd>Develope your node.js microservice using the power of ES6 classes without the need of transpilers!</dd>
+  <dd>Develope your node.js microservice using the power of ES6 classes without the need of transpilers! So its easy to debug .</dd>
 
   <dt>MVC pattern</dt>
   <dd>Use MVC pattern inside your micro-service</dd>
