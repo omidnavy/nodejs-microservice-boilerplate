@@ -89,11 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="122">
               <caret line="53" column="62" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -138,6 +147,7 @@
       <find>hello_proto</find>
       <find>--dep</find>
       <find>the hel</find>
+      <find>must</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -171,7 +181,6 @@
         <option value="$PROJECT_DIR$/app/config/Database.js" />
         <option value="$PROJECT_DIR$/app/config/winston.js" />
         <option value="$PROJECT_DIR$/app/helpers/winston.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/core/Database.js" />
         <option value="$PROJECT_DIR$/app/config/database.json" />
         <option value="$PROJECT_DIR$/app/helpers/winston/winston.js" />
@@ -188,6 +197,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/core/Route.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -298,12 +308,12 @@
       <updated>1530601991008</updated>
       <workItem from="1530601993295" duration="955000" />
       <workItem from="1530607659295" duration="49957000" />
-      <workItem from="1531021609635" duration="9911000" />
+      <workItem from="1531021609635" duration="9992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60823000" />
+    <option name="totallyTimeSpent" value="60904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,9 +333,9 @@
       <window_info anchor="bottom" id="File Transfer" order="0" weight="0.4009901" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41914192" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41914192" />
       <window_info anchor="right" id="Remote Host" order="0" weight="0.2677761" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80397725" visible="true" weight="0.2549168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80397725" visible="true" weight="0.2549168" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32838285" />
       <window_info id="Structure" order="1" sideWeight="0.19602273" side_tool="true" visible="true" weight="0.2549168" />
@@ -445,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/core/BaseController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -539,6 +542,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="53" column="62" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
