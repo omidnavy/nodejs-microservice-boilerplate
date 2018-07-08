@@ -50,8 +50,8 @@ Now you're ready to rumble!
 1.  Open "/app/core/Route.js" and edit "packageName" and "serviceName" variable depends on you ".proto" file.
 
 1.  For every function defined in your proto, you must have a controller and model.
-    - Make a .js in "/app/controllers" folder, with exact name of your proto function. Use "SayHello.js" as your template.
-    - Make a .js in "/app/models" folder, with exact name of your controller. Use "SayHello.js" as your template.
+    - Make a .js in "/app/controllers" folder, with exact name of your proto function. Use "myModel.js" as your template.
+    - Make a .js in "/app/models" folder, with any name you want, and require it in your controller class. Use "myModel.js" as your template.
 
 1.  Time to run your app:
 
@@ -67,7 +67,7 @@ There is a simple "DatabaseModel" in "/app/core" which is using "mysql" pooled c
 ### Helpers
 
 Helpers are shared functions that can be called from anywhere in your app. here we use "global variables" to define our helper functions.
-There is "logger" helper function defined as sample , you can call it with logger() where ever you want. there is a child process for calling the helper function to reduce cpu load on main app.
+There is "logger" helper function defined as sample , you can call it with logger() where ever you want. there is a child process for calling logger function to reduce cpu load on main app (don't take it serious , its just a showcase).
 
 ### Process
 

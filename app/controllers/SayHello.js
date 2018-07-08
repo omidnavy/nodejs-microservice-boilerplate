@@ -5,7 +5,7 @@ Model initialize in constructor of Controller
  */
 
 const BaseController = require("../core/BaseController");
-const Model = require("../models/SayHello");
+const Model = require("../models/myModel");
 
 module.exports = class SayHello extends BaseController {
     constructor() {
