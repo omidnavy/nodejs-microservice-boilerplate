@@ -1,5 +1,5 @@
 const path = require('path');
-const winston = require(path.join(__dirname,'../../node_modules/winston'));
+const winston = require(path.join(__dirname,'../../../node_modules/winston'));
 const options = {
     file: {
         level: 'info',

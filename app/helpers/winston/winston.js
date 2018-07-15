@@ -10,7 +10,7 @@ forked.on('error',()=>{
 });
 
 function spawn(){
-    return fork(path.join(__dirname,'../../process','winston.js'))
+    return fork(path.join(__dirname,'../../core/child-process','winston.js'))
 }
 
 module.exports = class winston {

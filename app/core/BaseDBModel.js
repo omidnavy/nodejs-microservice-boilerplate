@@ -4,7 +4,7 @@ you can extend this class as you need or change it to another DB
  */
 
 const mysql = require('mysql');
-const config = require('../config/database').development;
+const config = require('./config/database').development;
 const BaseModel = require('./BaseModel');
 
 const createPool = () => {
@@ -41,7 +41,7 @@ const reconnect = () => {
 };
 let pool = createPool();
 
-module.exports = class DatabaseModel extends BaseModel {
+module.exports = class BaseDBModel extends BaseModel {
     constructor() {
         super()
     }

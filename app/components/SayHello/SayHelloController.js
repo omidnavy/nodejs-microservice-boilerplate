@@ -1,20 +1,19 @@
 /*
-Controllers should extends the "BaseController"
+Controllers may extends the "BaseController" or not , depends on you and your system.
 Model initialize in constructor of Controller
-"main" functions is your gateway ! you have to declare it .
+"main" functions is your gateway ! you have to declare it with call and callback parameters.
  */
 
-const BaseController = require("../core/BaseController");
-const Model = require("../models/myModel");
+const BaseController = require("../../core/BaseController");
+const Model = require("./myModel");
 
-module.exports = class SayHello extends BaseController {
+module.exports = class SayHelloController extends BaseController {
     constructor() {
         super();
         this.model = new Model();
     }
 
     main(call, callback) {
-        console.log(this.model);
         console.log(call.request);
         let test = this.model.reverse(call.request.name);
         callback(null, {message: `Hello ${test}`});
