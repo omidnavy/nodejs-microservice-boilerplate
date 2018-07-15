@@ -45,9 +45,9 @@ Now you're ready to rumble!
 
 # Documentation
 
-1.  First, let's make a [Protocol Buffer](https://developers.google.com/protocol-buffers/) name it `Route.proto` and put it inside `/app/core/`.
+1.  First, let's make a [Protocol Buffer](https://developers.google.com/protocol-buffers/) name it `RouteMapper.proto` and put it inside `/app/core/`.
 
-1.  Open `/app/core/Route.js` and edit `packageName` and `serviceName` variable depends on you `.proto` file.
+1.  Open `/app/core/RouteMapperMapper.js` and edit `packageName` and `serviceName` variable depends on you `.proto` file.
 
 1.  For every rpc function defined in your proto, you must have a component.
     - Create a folder inside `app/components` same as your rpc function name. `eg. SayHello` 

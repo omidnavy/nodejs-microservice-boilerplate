@@ -25,7 +25,7 @@ const proto = protoDescriptor;
 const server = new grpc.Server();
 const packageName = "Hello";
 const serviceName = "Greeter";
-module.exports = class Route {
+module.exports = class RouteMapper {
     constructor() {
         this.server = server;
         this.MapRoutes()
