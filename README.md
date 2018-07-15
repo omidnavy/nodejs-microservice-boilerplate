@@ -64,8 +64,12 @@ Now you're ready to rumble!
 
 ### Database Class
 
-There is a simple `BaseDBModel` in `/app/core/` which is using `mysql` pooled connections wrapped in a promised based function. You can remove it completely from your app if you don't need databases or modify it to use with other databases. don't forget to uninstall it using `npm uninstall -s mysql 
-` if you decide to remove database class. You can check the commented sample code for using it.
+There is a simple `BaseDBModel` in `/app/core/` which is using `mysql` pooled connections wrapped in a promised based function.
+  You can check the commented sample code for using it.
+  You can modify it to use with other databases or remove it completely from your app if you don't need databases . don't forget to clean the code and uninstall `mysql` client using following command if you decide to remove or change database.
+  ```shell
+  npm uninstall -s mysql
+  ``` 
 
 ### Helpers
 
